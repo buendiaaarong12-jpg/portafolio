@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #0a0a0a;
+}
+
+#contenedor {
+    width: 1300px;
+    height: auto;
+    min-height: 950px;
+    background: #000000;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 1px 20px rgba(0,0,0,0.5);
+}
+
+header {
+    width: 1300px;
+    height: 350px;
+    background: #000000;
+}
+
+#baner {
+    width: 1300px;
+    height: 350px;
+    background: #000000;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 85px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 350px;
+    letter-spacing: -2px;
+}
+
+img {
+    width: 350px;
+    height: 150px;
+    object-fit: contain;
+    filter: brightness(0.8);
+}
+
+nav {
+    height: 75px;
+    width: 1300px;
+    background: #000000;
+    text-align: center;
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    color: #666;
+    text-decoration: none;
+    padding: 0 80px;
+    line-height: 75px;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+main {
+    width: 1300px;
+    display: flex;
+}
+
+#izquierda {
+    width: 300px;
+    min-height: 450px;
+    background: #000000;
+}
+
+article {
+    width: 700px;
+    min-height: 450px;
+    background: #000000;
+    padding: 60px 40px;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.reflexion h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.reflexion p {
+    font-size: 17px;
+    color: #a0a0a0;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+#derecha {
+    width: 300px;
+    min-height: 450px;
+    background: #000000;
+}
+
+footer {
+    height: 75px;
+    width: 1300px;
+    background: #000000;
+    line-height: 75px;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #1a1a1a;
+}
